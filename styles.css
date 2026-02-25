@@ -1,35 +1,26 @@
 
+/* Your CSS Code here. */
+	#holder1{	
+		display:flex;
+		justify-content:space-between;
+		flex-wrap:wrap
+	}
 
-/* Container */
-.container {
-  display: flex;
-  justify-content: space-between; /* first & last touch edges */
-  flex-wrap: wrap;                /* move to next row */
-  margin-bottom: 40px;
+.item1{
+	font-size:50px;
+	background-color:green;
+	width:100px;
+	height:100px
 }
-
-/* Box styling */
-.box {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: 50px;
-  font-weight: bold;
-  padding: 10px;
-  color: black;
+.item2{
+	font-size:50px;
+	background-color:red;
+	width:100px;
+	height:100px
 }
-
-/* Colors */
-.green {
-  background: green;
-}
-
-.red {
-  background: red;
-}
-
-.blue {
-  background: blue;
+.item3{
+	font-size:50px;
+	background-color:blue;
+	width:100px;
+	height:100px
 }
