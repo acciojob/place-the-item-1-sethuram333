@@ -1,37 +1,29 @@
-/* Common container */
+
+
+/* Container */
 .container {
   display: flex;
-  gap: 20px;
+  justify-content: space-between; /* first & last touch edges */
+  flex-wrap: wrap;                /* move to next row */
   margin-bottom: 40px;
 }
 
-/* First row */
-.row1 {
-  justify-content: space-between;
-}
-
-/* Second row */
-.row2 {
-  flex-wrap: wrap;
-  width: 600px;
-}
-
-/* Common box */
+/* Box styling */
 .box {
   width: 100px;
   height: 100px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  font-size: 32px;
+  font-size: 50px;
   font-weight: bold;
   padding: 10px;
   color: black;
 }
 
 /* Colors */
-.dark {
-  background: #1f3d3d;
+.green {
+  background: green;
 }
 
 .red {
@@ -39,9 +31,5 @@
 }
 
 .blue {
-  background: #1e5ed7;
-}
-
-.green {
-  background: green;
+  background: blue;
 }
